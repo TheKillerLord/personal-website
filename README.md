@@ -4,6 +4,6 @@ This repository contains the source code and information to my website. This web
 
 # Contact Me
 Email: louisjunjielim@gmail.com <br>
-Mobile: i) Malaysia: (+60)167394262
-       ii) United Kingdom: (+44) 7570998152
+Mobile: i) Malaysia: (+60)167394262 <br>
+       ii) United Kingdom: (+44) 7570998152 <br>
 LinkedIn: https://www.linkedin.com/in/louis-lim-jun-jie/

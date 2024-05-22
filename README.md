@@ -4,5 +4,5 @@ This repository contains the source code and information to my website. This web
 
 # Contact Me
 Email: louisjunjielim@gmail.com <br>
-Mobile: (+60)167394262 <br>
+Mobile: 
 LinkedIn: https://www.linkedin.com/in/louis-lim-jun-jie/

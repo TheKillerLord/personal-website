@@ -100,6 +100,9 @@ span {
 .home-img img {
     width: 25vw;
     animation: floatImage 4s ease-in-out infinite;
+    height: 25vw; /* Ensure it's a square */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the entire container */
 }
 
 @keyframes floatImage {
@@ -116,6 +119,7 @@ span {
 
 .home-content p {
     font-size: 1.6rem;
+    margin-bottom: 1.5rem;
 }
 
 .social-media a {
@@ -166,6 +170,9 @@ span {
 
 .about-img img {
     width: 35vw;
+    height: 35vw; /* Ensure it's a square */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the entire container */
 }
 
 .heading {
@@ -184,6 +191,42 @@ span {
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem; 
+}
+
+.education {
+    background: var(--snd-bg-color);
+    padding: 10rem 9% 2rem;
+    text-align: center;
+}
+
+.education h2 {
+    font-size: 4.5rem;
+    margin-bottom: 5rem;
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.education-box {
+    background: var(--bg-color);
+    padding: 3rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    text-align: left;
+}
+
+.education-box h3 {
+    font-size: 2.6rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.education-box p {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
 }
 
 .services h2 {
@@ -461,6 +504,7 @@ span {
     .home-img img {
         width: 70vw;
         margin-top: 4rem;
+        height: 70vw; /* Ensure it's a square */
     }
 
     .about {
@@ -470,6 +514,7 @@ span {
     .about-img img {
         width: 90vw;
         margin-top: 4rem;
+        height: 90vw; /* Ensure it's a square */
     }
 
     .services h2 {
@@ -493,11 +538,13 @@ span {
     .home-img img {
         width: 80vw;
         margin-top: 8rem;
+        height: 80vw; /* Ensure it's a square */
     }
 
     .about-img img {
         width: 100vw;
         margin-top: 4rem;
+        height: 100vw; /* Ensure it's a square */
     }
 }
 

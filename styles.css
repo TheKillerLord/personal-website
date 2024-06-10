@@ -197,6 +197,7 @@ span {
     background: var(--snd-bg-color);
     padding: 10rem 9% 2rem;
     text-align: center;
+    margin-bottom: 5rem;
 }
 
 .education h2 {
@@ -208,6 +209,7 @@ span {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    margin-bottom: 2rem;
 }
 
 .education-box {
@@ -216,6 +218,8 @@ span {
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--main-color);
     text-align: left;
+    margin-bottom: 1rem;
+
 }
 
 .education-box h3 {
@@ -227,6 +231,28 @@ span {
 .education-box p {
     font-size: 1.6rem;
     margin-bottom: 0.5rem;
+}
+
+
+.sub-section-education h4 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
+
+.sub-section-education p {
+    font-size: 1.6rem;
+    
+}
+
+.bullet-point::before {
+    content: '\2022'; /* Unicode for a bullet point */
+    color: var(--main-color); /* Bullet color */
+    font-weight: bold; /* Optional: make the bullet bold */
+    display: inline-block; /* Ensure it behaves like an inline element */
+    width: 1em; /* Space between bullet and text */
+    margin-left: -1em; /* Adjust the left margin to align bullets */
 }
 
 .services h2 {

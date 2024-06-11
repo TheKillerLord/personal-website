@@ -255,11 +255,11 @@ span {
     margin-left: -1em; /* Adjust the left margin to align bullets */
 }
 
-.services h2 {
+.interests h2 {
     margin-bottom: 5rem;
 }
 
-.services-container {
+.interest-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -267,31 +267,34 @@ span {
     gap: 2rem;
 }
 
-.services-container .services-box {
+.interest-container .interests-box {
     flex: 1 1 30rem;
+    height: auto;
     background: var(--snd-bg-color);
-    padding: 3rem 2rem 4rem;
+    padding: 2rem;
     border-radius: 2rem;
     text-align: center;
     border: .2rem solid var(--bg-color);
     transition: .5s ease;
+
 }
 
-.services-container .services-box:hover {
+.interest-container .interests-box:hover {
     border-color: var(--main-color);
     transform: scale(1.02);
+
 }
 
-.services-box i {
+.interests-box i {
     font-size: 7rem;
     color: var(--main-color);
 }
 
-.services-box h3 {
+.interests-box h3 {
     font-size: 2.6rem;
 }
 
-.services-box p {
+.interests-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
@@ -467,7 +470,7 @@ span {
         padding: 10rem 3%;
     }
 
-    .services {
+    .interest {
         padding: 7rem;
     }
 
@@ -543,7 +546,7 @@ span {
         height: 90vw; /* Ensure it's a square */
     }
 
-    .services h2 {
+    .interest h2 {
         margin-bottom: 3rem;
     }
 
